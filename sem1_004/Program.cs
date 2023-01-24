@@ -14,3 +14,13 @@ while (count < a)
     count++;
 }
 
+// ИЛи улучшенная версия
+
+Console.WriteLine("Введите целое число");
+int b = Convert.ToInt32(Console.ReadLine());
+int cou = 2;
+while (cou <= a)
+{
+    Console.Write($"{cou} ");
+    cou+=2;
+}
